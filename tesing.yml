@@ -1,0 +1,5 @@
+- name: Run PCI-DSS Compliance Scan
+  hosts: 192.168.1.55
+  tasks:
+       hostname
+
