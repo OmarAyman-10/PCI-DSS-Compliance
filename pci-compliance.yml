@@ -2,4 +2,4 @@
 - name: Run PCI-DSS Compliance Scan
   hosts: 192.168.1.55
   roles:
-    - { role: RedHatOfficial.rhel7_pci_dss }
+    - { role: ansible-security-compliance.rhel7-role-pci-dss }
