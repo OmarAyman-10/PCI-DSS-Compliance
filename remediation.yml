@@ -1,5 +1,5 @@
-### Now create the playbook based on the report:
-oscap xccdf generate fix --fix-type ansible --result-id "" /tmp/arf.xml > playbook.yml
+-- name: create the playbook based on the report:
+   command: oscap xccdf generate fix --fix-type ansible --result-id "" /tmp/arf.xml > playbook.yml
 
-### Run the playbook:
-ansible-playbook playbook.yml
+-- name: Run the playbook:
+   command: ansible-playbook playbook.yml
