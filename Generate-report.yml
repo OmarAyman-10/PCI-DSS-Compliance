@@ -1,2 +1,0 @@
--- name: Generate report in XML and html format.
-   command: oscap xccdf eval --oval-results --profile xccdf_org.ssgproject.content_profile_pci-dss --results-arf /tmp/arf.xml --report /tmp/report.html /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
