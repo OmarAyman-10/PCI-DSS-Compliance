@@ -1,6 +1,4 @@
 - hosts: 192.168.1.42
   tasks:
     - name: create the playbook based on the report
-      command: oscap xccdf generate fix --fix-type ansible --output playbook.yml --result-id "" /tmp/arf.xml
-    - name: Run the remediations playbook
-      command: ansible-playbook playbook.yml   
+      command: oscap xccdf generate fix --fix-type ansible --output playbook.yml --result-id "" /tmp/arf.xml   
