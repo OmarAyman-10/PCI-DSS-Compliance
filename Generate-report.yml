@@ -1,4 +1,4 @@
-- hosts: 192.168.1.41
+- hosts: 192.168.1.42
 
   tasks:
     - name: Generate report in XML and html format.
